@@ -16,4 +16,106 @@ html { box-sizing: border-box; }
 
 body {
     background-color: #bdc3c7;
+    }
+
+.profil {
+    width: 250px;
+    background-color: #31363b;
+    text-align: left;
+    margin: 20px;
+    padding: 0;
+    box-shadow: 2px 2px 10px #31363b;
+    }
+
+.foto {
+    width: 250px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    }
+
+.obsah {
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#bdc3c7;
+    padding: 20px;
+    font-size: 1em;
+}
+
+.odkazy {
+   
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 250px
+      
+    }
+
+
+.odkazy li {
+    display:inline-block;
+     }
+
+.odkazy a {
+    display: inline-block;
+    color: #bdc3c7;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.portfolio {
+    width: 100%;
+    text-align:center;
+    border-top-style:solid;
+    border-top-width: 1px;
+    border-top-color:#3f464d; 
+           
+}
+
+.facebook,
+.twitter {
+    width:50%;
+    text-align: center;
+    display:block;
+    border-top-style:solid;
+    border-top-width: 1px;
+    border-top-color: #3f464d;
+       }
+
+.facebook:hover {
+    background-color: #3b5998;
+        }
+
+.facebook a:hover {
+    color:white;
+}
+
+.portfolio:hover {
+    background-color: #e74c3c;
+}
+
+.portfolio a:hover {
+    color:white;
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+   }
+
+.twitter a:hover {
+    color:white;
+}
+
+.logo {
+    border-radius: 50%;
+    background-color: #b92e81;
+    position:absolute;
+    left:200px;
+    top:166px;
 }
